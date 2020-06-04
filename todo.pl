@@ -7,7 +7,7 @@
 :- use_module(library(http/http_parameters)).
 
 % Set up server for port 7777
-todo_server :- todo_server(7778).
+todo_server :- todo_server(7777).
 
 todo_server(Port) :-
     format('Starting todo_server on ~w', [Port]),
